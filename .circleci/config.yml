@@ -13,7 +13,7 @@ jobs: # basic units of work in a run
 
       # Normally, this step would be in a custom primary image;
       # we've added it here for the sake of explanation.
-      - run: go get ggithub.com/go-chi/render
+      - run: go get github.com/go-chi/render
       - run: go get github.com/go-chi/chi
       - run: go get github.com/onsi/gomega
       - run: go get github.com/onsi/ginkgo
